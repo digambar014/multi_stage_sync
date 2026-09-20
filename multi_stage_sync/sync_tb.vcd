@@ -1,0 +1,132 @@
+$date
+	Thu Sep 17 16:33:55 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module sync_tb $end
+$var wire 1 ! sync_out3 $end
+$var wire 1 " sync_out2 $end
+$var reg 1 # async_in $end
+$var reg 1 $ clk $end
+$scope module u_sync2 $end
+$var wire 1 # async_in $end
+$var wire 1 $ clk $end
+$var reg 1 % sync_ff1 $end
+$var reg 1 " sync_out $end
+$upscope $end
+$scope module u_sync3 $end
+$var wire 1 # async_in $end
+$var wire 1 $ clk $end
+$var reg 1 & sync_ff1 $end
+$var reg 1 ' sync_ff2 $end
+$var reg 1 ! sync_out $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+x'
+x&
+x%
+0$
+0#
+x"
+x!
+$end
+#5000
+0%
+0&
+1$
+#10000
+0$
+#15000
+0'
+0"
+1$
+#20000
+0$
+#23000
+1#
+#25000
+1%
+0!
+1&
+1$
+#30000
+0$
+#35000
+1'
+1"
+1$
+#38000
+0#
+#40000
+0$
+#45000
+0%
+1!
+0&
+1$
+#50000
+0$
+#55000
+0'
+0"
+1$
+#60000
+0$
+#63000
+1#
+#65000
+1%
+0!
+1&
+1$
+#70000
+0$
+#75000
+1'
+1"
+1$
+#80000
+0$
+#85000
+1!
+1$
+#90000
+0$
+#93000
+0#
+#95000
+0&
+0%
+1$
+#100000
+0$
+#105000
+0"
+0'
+1$
+#110000
+0$
+#115000
+0!
+1$
+#120000
+0$
+#125000
+1$
+#130000
+0$
+#135000
+1$
+#140000
+0$
+#143000
